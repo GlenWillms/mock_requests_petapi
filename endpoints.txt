@@ -5,6 +5,12 @@ GET|/api/CatLookup/GetByBreed?breed=Main Coon|
 GET|/api/CatLookup/GetByLocation?location=Paw Pad|
 GET|/api/CatLookup/GetByAge?age=5|
 GET|/api/DogLookup/GetAllDogs|
+GET|/api/DogLookup/GetAllDogs|
+GET|/api/DogLookup/GetByPetID?petID=895213| 
+GET|/api/DogLookup/GetByName?name=Archer|
+GET|/api/DogLookup/GetByBreed?breed=Boston Terrier|
+GET|/api/DogLookup/GetByLocation?loDogion=Howling Window|
+GET|/api/DogLookup/GetByAge?age=5|
 POST|/api/Auth/JWT|{"username": "customer", "password": "supersecret!"}
 POST|/api/PetAdmin/Submit|{"type": "Cat", "name": "Fluffy", "breed": "Persian","age": "2", "location": "Paw Pad", "phoneNumber": "(111) 111-1111", "email": "info@pawpad.com"}
 PUT|/api/PetAdmin/Update|{"petID": "895210", "type": "Cat", "name": "Fluffy", "breed": "Persian","age": "2", "location": "Paw Pad", "phoneNumber": "(111) 111-1111", "email": "info@pawpad.com"}
